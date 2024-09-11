@@ -3,7 +3,7 @@
 Video = VideoReader('videoplayback_short.mp4');
 Object_Detector = vision.ForegroundDetector(...
        'NumTrainingFrames', 7, ... 
-       'InitialVariance', 30*30)
+       'InitialVariance', 30*30) 
 
 
 for i = 1:25
